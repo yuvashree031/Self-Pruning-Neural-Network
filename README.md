@@ -18,6 +18,10 @@ This project introduces a self-pruning neural network designed to dynamically id
 | 0.1    | 54.17        | 37.88        |
 
 
+### Final Gate Values Distribution
+![Gate Value Distribution](gate_distribution.png)
+
+
 ## Project Structure
 - `model.py`: Contains the definition of the custom `PrunableLinear` layer and the `SelfPruningNetwork` architecture, including methods for calculating the sparsity loss and sparsity level.
 - `train.py`: Handles the dataset loading (CIFAR-10), the custom training loop integrating the L1 penalty, and the evaluation logic to measure test accuracy against the sparsity threshold.
