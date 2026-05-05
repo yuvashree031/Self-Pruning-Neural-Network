@@ -9,6 +9,8 @@ import os
 
 from model import SelfPruningNetwork
 
+
+# train and evaluate
 def train_and_evaluate(lam, epochs=5, device='cpu'):
     print(f"\n{'='*40}")
     print(f" Training with Lambda: {lam}")
